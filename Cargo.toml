@@ -1,0 +1,19 @@
+[package]
+name = "test"
+version = "0.1.0"
+
+[lib]
+crate-type = ["staticlib"]
+
+[dependencies]
+hex = "0.3.2"
+cryptoxide = "0.1"
+cbor_event = "1.0"
+libc = "*"
+serde = "1.0"
+serde_derive = "1.0"
+rand = "0.4"
+serde_json = "*"
+unicode-normalization = "0.1.7"
+cardano = { path = "../cardano" }
+storage-units = { path = "../storage-units" }
